@@ -1,0 +1,6 @@
+DATA data_set_name;		    #Name the data set.
+INPUT var1,var2,var3; 		#Define the variables in this data set.
+NEW_VAR;			            #Create new variables.
+LABEL;			      	      #Assign labels to variables.
+DATALINES;		          	#Enter the data.
+RUN;
